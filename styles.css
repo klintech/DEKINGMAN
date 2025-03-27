@@ -101,7 +101,8 @@
   }
   
   /* Buttons */
-  .btn {
+ /* Base button styles */
+.btn {
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -112,18 +113,23 @@
     cursor: pointer;
     transition: var(--transition);
     border: none;
-  }
-  
-  .btn-lg {
+}
+
+/* Large button styles */
+.btn-lg {
     padding: 0.75rem 1.5rem;
     font-size: 1.125rem;
-  }
-  
-  .btn-primary {
+}
+
+/* Primary button styles */
+.btn-primary {
     background-color: var(--primary);
     color: white;
-  }
-  
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover);
+}
   .btn-primary:hover {
     background-color: var(--primary-hover);
   }
